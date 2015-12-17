@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mealy Another Adventure - Game</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <link rel="stylesheet" type="text/css" href="css/style.css"/>
+        <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
+        <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="css/jquery-ui-1.10.4.custom.min.css" />
+        <script type="text/javascript" src="js/data.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+		<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+		<script src="js/jquery.jsPlumb-1.4.1-all-min.js"></script>
+        <script type="text/javascript" src="js/crafty.js"></script>
+        <script type="text/javascript" src="js/game.js"></script>
+        <script type="text/javascript" src="js/components.js"></script>
+        <script>window.addEventListener('load', Game.start);</script>
+	</head>
+	<body>
+		<div id="game">
+			<div id="cr-stage"></div>
+			<span id="alphabet">abbccaaaabcbccb</span>
+			<div id="playbar">
+				<span id="leftbuttons">
+					<img id="play" src="img/Play.png" />
+					<img id="pause" src="img/Pause.png" />
+					<img id="stop" src="img/Stop.png" />
+				</span>
+				<span id="score">0000</span>
+				<span id="rightbuttons">
+					<img id="new" src="img/New.png"/>
+					<img id="delete" src="img/Delete.png"/>
+					<img id="sound" src="img/SoundOn.png"/>
+				</span>
+			</div>
+		</div>
+		<div id="automatons">
+			<div id="area"></div>
+			</div>
+		</div>
+		<div id="actionmenu">
+			<img id="chalt" class="crc" src="img/Circle.png" />
+			<img id="cleft" class="crc" src="img/Circle.png" />
+			<img id="cright" class="crc" src="img/Circle.png" />
+			<img id="cjump" class="crc" src="img/Circle.png" />
+			<img id="cjumpleft" class="crc" src="img/Circle.png" />
+			<img id="cjumpright" class="crc" src="img/Circle.png" />
+
+			<img id="halt" src="img/icons/stopIcon.png" />
+			<img id="left" src="img/icons/leftIcon.png" />
+			<img id="right" src="img/icons/rightIcon.png" />
+			<img id="jump" src="img/icons/jumpIcon.png" />
+			<img id="jumpleft" src="img/icons/jumpLeftIcon.png" />
+			<img id="jumpright" src="img/icons/jumpRightIcon.png" />
+		</div>
+	</body>
+</html>
